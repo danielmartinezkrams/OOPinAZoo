@@ -1,10 +1,13 @@
-/*
- Created by h205p2 on 9/8/17.
+/**
+ * Created by h205p2 on 9/8/17.
  */
-public class Tiger extends Animal{
-    /*
+public class Animal {
     String name;
     String favoriteFood;
+    public Animal(String name, String favoriteFood) {
+        this.name = name;
+        this.favoriteFood = favoriteFood;
+    }
     public void sleep(){
         System.out.println(this.name + " sleeps for 8 hours");
     }
@@ -17,14 +20,5 @@ public class Tiger extends Animal{
             sleep();
         }
     }
-    */
-    public Tiger(String name){
-        super(name, "meat");
-    }
-    public static void main(String args[]){
-        Tiger tigger = new Tiger("Tigger");
-        tigger.eat("meat");
-        tigger.eat("kibble");
 
-    }
 }

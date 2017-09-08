@@ -4,9 +4,13 @@
 public class Zoo {
 
     public static void main(String args[]){
-        Zoo Tigger = new Zoo();
-        Tigger.eat("Tigger", "meat");
-        Tigger.eat("Tigger", "bacon");
+        Tiger tigger = new Tiger("Tigger");
+        tigger.eat("meat");
+        Bear pooh = new Bear("Pooh");
+        pooh.eat("fish");
+        pooh.eat("meat");
+        Unicorn rarity = new Unicorn("Rarity");
+
     }
     String favoriteFood = "bacon";
     public static void sleep(String name){
