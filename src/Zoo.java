@@ -10,6 +10,14 @@ public class Zoo {
         pooh.eat("fish");
         pooh.eat("meat");
         Unicorn rarity = new Unicorn("Rarity");
+        rarity.eat("marshmallows");
+        rarity.sleep();
+        Giraffe gemma = new Giraffe("Gemma");
+        gemma.eat("meat");
+        gemma.eat("leaves");
+        Bee stinger = new Bee("Stinger");
+        stinger.eat("ice cream");
+        stinger.eat("pollen");
 
     }
     String favoriteFood = "bacon";

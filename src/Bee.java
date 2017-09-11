@@ -6,10 +6,16 @@ public class Bee extends Animal{
         super(name, "pollen");
     }
     public void eat(String food){
-        System.out.println("YUM!!! " + this.name + " wants more pollen");
-        sleep();
+        System.out.println(this.name + " eats " + food);
+        if("pollen".equals(food)){
+            System.out.println("YUM!!! " + this.name + " wants more pollen");
+            sleep();
+        }
+        else{
+            System.out.println("YUCK!!! " + this.name + " will not eat " + food);
+        }
     }
     public void sleep(){
-        System.out.println(this.name + "never sleeps");
+        System.out.println(this.name + " never sleeps");
     }
 }
